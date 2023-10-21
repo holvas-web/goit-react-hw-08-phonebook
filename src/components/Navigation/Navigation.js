@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import { selectIsLoggedIn } from 'redux/auth/authSelectors';
 import { UserMenu } from 'components/UserMenu/UserMenu';
-import { Navigation, StyledLink } from './Navigation.styled';
+import { ListNav, StyledLink } from './Navigation.styled';
 
 export const Navigation = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
@@ -11,14 +11,14 @@ export const Navigation = () => {
       {isLoggedIn ? (
         <UserMenu />
       ) : (
-        <Navigation>
+        <ListNav>
           <li>
             <StyledLink to="/register">Register</StyledLink>
           </li>
           <li>
             <StyledLink to="/login">Login</StyledLink>
           </li>
-        </Navigation>
+        </ListNav>
       )}
     </div>
   );
