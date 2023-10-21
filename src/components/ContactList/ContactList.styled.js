@@ -10,7 +10,6 @@ export const List = styled.ul`
 export const ListItem = styled.li`
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   gap: 16px;
 `;
 
@@ -18,20 +17,20 @@ export const Marker = styled.div`
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: yellow;
 `;
 
 export const DeleteBtn = styled.button`
   margin-left: auto;
-  padding: 4px 8px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 4px 10px;
+  box-shadow: yellowgreen 0px 1px 6px;
   background-color: #fff;
   border-color: transparent;
   width: fit-content;
-  border-radius: 8px;
+  border-radius: 2px;
 
   &:hover,
   &:focus {
-    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    box-shadow: yellowgreen 0px 0px 0px 2px;
   }
 `;

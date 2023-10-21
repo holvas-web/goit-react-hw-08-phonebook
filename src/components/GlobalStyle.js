@@ -9,6 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000;
+  color: #fff;
 }
 
 code {
@@ -25,6 +27,7 @@ h6,
 hr,
 p {
   margin: 0;
+  color: yellowgreen;
 }
 
 p:last-child {

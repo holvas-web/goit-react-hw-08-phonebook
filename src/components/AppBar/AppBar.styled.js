@@ -6,7 +6,7 @@ export const Header = styled.header`
   padding: 12px 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 `;
 export const LinkContainer = styled.div`
   display: flex;
@@ -22,9 +22,9 @@ export const ContactsLinkContainer = styled.div`
 `;
 
 export const StyledLink = styled(NavLink)`
-  font-weight: 700;
+  font-weight: 500;
 
   &.active {
-    color: tomato;
+    color: yellow;
   }
 `;
