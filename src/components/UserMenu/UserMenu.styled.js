@@ -7,7 +7,7 @@ export const Container = styled.div`
   align-items: center;
 `;
 
-export const LogoutBtn = styled.button`
+export const Logout = styled.button`
   padding: 4px 8px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   background-color: #fff;
