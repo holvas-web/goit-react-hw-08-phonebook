@@ -10,6 +10,7 @@ export const FormItem = styled.label`
   gap: 8px;
   font-size: 18px;
   font-weight: 500;
+  padding-bottom: 8px;
 `;
 
 export const FormField = styled.input`
@@ -20,6 +21,6 @@ export const FormField = styled.input`
 
   &:hover,
   &:focus {
-    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    box-shadow: yellowgreen 0px 0px 0px 2px;
   }
 `;
