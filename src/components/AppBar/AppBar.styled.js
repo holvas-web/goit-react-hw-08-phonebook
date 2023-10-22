@@ -11,7 +11,7 @@ export const Header = styled.header`
 export const LinkContainer = styled.div`
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 `;
 
 export const ContactsLinkContainer = styled.div`

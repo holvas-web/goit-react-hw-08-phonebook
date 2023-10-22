@@ -11,16 +11,18 @@ export const FormItem = styled.label`
   font-size: 18px;
   font-weight: 500;
   padding-bottom: 8px;
+  color: yellowgreen;
 `;
 
 export const FormField = styled.input`
   border-color: #eef0f2;
   border-style: solid;
+  border-radius: 2px;;
   font-size: 16px;
   font-weight: 400;
 
   &:hover,
   &:focus {
-    box-shadow: yellowgreen 0px 0px 0px 2px;
+    box-shadow: yellow 0px 0px 0px 2px;
   }
 `;

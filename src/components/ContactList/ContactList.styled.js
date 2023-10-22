@@ -31,6 +31,6 @@ export const DeleteBtn = styled.button`
 
   &:hover,
   &:focus {
-    box-shadow: yellowgreen 0px 0px 0px 2px;
+    box-shadow: yellow 0px 0px 0px 2px;
   }
 `;

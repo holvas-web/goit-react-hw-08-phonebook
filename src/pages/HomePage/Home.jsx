@@ -3,9 +3,9 @@ import { MainTitle } from './Home.styled';
 const Home = () => {
   return (
     <MainTitle>
-      Phonebook manager welcome page{' '}
-      <span role="img" aria-label="Greeting icon">
-        💁‍♀️
+      Welcome to the phonebook App {' '}
+      <span role="img" aria-label="Hello icon">
+        
       </span>
     </MainTitle>
   );

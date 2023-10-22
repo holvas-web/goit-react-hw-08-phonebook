@@ -9,11 +9,13 @@ export const StyledForm = styled(Form)`
   padding: 16px;
   margin-bottom: 32px;
   border: 2px solid yellow;
+  border-radius: 4px;
 `;
 
 export const FormItem = styled.label`
   display: flex;
   flex-direction: column;
+  gap: 8px;
 `;
 
 export const ErrMessage = styled(ErrorMessage)`
@@ -21,8 +23,8 @@ export const ErrMessage = styled(ErrorMessage)`
 `;
 
 export const SubmitBtn = styled.button`
-  padding: 4px 10px;
-  box-shadow: yellowgreen 0px 1px 4px;
+  padding: 4px 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   background-color: #fff;
   border-color: transparent;
   width: fit-content;

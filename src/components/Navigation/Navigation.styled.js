@@ -7,10 +7,9 @@ export const ListNav = styled.ul`
 `;
 
 export const StyledLink = styled(NavLink)`
-  /* color: #394246; */
   font-weight: 700;
 
   &.active {
-    color: tomato;
+    color: yellow;
   }
 `;

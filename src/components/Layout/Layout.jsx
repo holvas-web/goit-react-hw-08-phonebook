@@ -13,9 +13,9 @@ const Layout = () => {
       <Suspense
         fallback={
           <ThreeDots
-            height="80"
-            width="80"
-            radius="9"
+            height="40"
+            width="40"
+            radius="6"
             color="yellow"
             ariaLabel="three-dots-loading"
             wrapperStyle={{

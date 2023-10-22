@@ -38,7 +38,7 @@ const Login = () => {
             <StyledField
               id="email"
               name="email"
-              placeholder="jonsoniuk@mail.com"
+              placeholder="holvascompany@mail.com"
               type="email"
             />
             <ErrMessage name="email" component="div" />

@@ -37,7 +37,7 @@ const Register = () => {
         <StyledForm>
           <FormItem>
             Name
-            <StyledField name="name" placeholder="Boris Jonsoniuk" />
+            <StyledField name="name" placeholder="Vasyl Holubovskyi" />
             <ErrMessage name="name" component="div" />
           </FormItem>
 
@@ -45,7 +45,7 @@ const Register = () => {
             Email
             <StyledField
               name="email"
-              placeholder="jonsoniuk@mail.com"
+              placeholder="holvascompany@mail.com"
               type="email"
             />
             <ErrMessage name="email" component="div" />
