@@ -25,10 +25,10 @@ export const App = () => {
 
   return isRefreshing ? (
     <ThreeDots
-      height="80"
-      width="80"
-      radius="9"
-      color="tomato"
+      height="40"
+      width="40"
+      radius="6"
+      color="yellow"
       ariaLabel="three-dots-loading"
       wrapperStyle={{
         display: 'flex',
@@ -41,30 +41,10 @@ export const App = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
-        <Route
-          path="/register"
-          element={
-            <RestrictedRoute component={RegisterPage} redirectTo="/contacts" />
-          }
-        />
-        <Route
-          path="/login"
-          element={
-            <RestrictedRoute component={LoginPage} redirectTo="/contacts" />
-          }
-        />
-        <Route
-          path="/contacts"
-          element={
-            <PrivateRoute component={ContactsPage} redirectTo="/login" />
-          }
-        />
-        <Route
-          path="/addContact"
-          element={
-            <PrivateRoute component={AddContactPage} redirectTo="/login" />
-          }
-        />
+        <Route path="/register" element={<RestrictedRoute component={RegisterPage} redirectTo="/contacts" />}/>
+        <Route path="/login" element={<RestrictedRoute component={LoginPage} redirectTo="/contacts" />}/>
+        <Route path="/contacts" element={<PrivateRoute component={ContactsPage} redirectTo="/login" />}/>
+        <Route path="/addContact" element={<PrivateRoute component={AddContactPage} redirectTo="/login" />}/>
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
